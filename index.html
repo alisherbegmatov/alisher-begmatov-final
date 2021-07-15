@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>FEW 2.2 Final - Alisher Begmatov</title>
+	<link rel='stylesheet' href="rendezvous.css">
+</head>
+<body>
+
+	<div id="nav">
+		<div class="navbar">
+			<ul>
+				<li><a href="#">Color.com</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#popular">Popular</a></li>
+				<li><a href="#swatches">Swatches</a></li>
+				<li><a href="#cart">Order</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<main>
+
+		<section style="margin-top: 1em;">
+			<ticker-tape animation-duration= '20s'>
+				<h1>...Color.com is awesome...</h1>
+			</ticker-tape>
+		</section>
+
+		<section id="about" class="about">
+
+			<header>
+				<h1>What is color?</h1>
+			</header>
+			<p><strong>Color</strong> (American English), or colour (Commonwealth English), is the characteristic of visual perception described through color categories, with names such as red, orange, yellow, green, blue, or purple. This perception of color derives from the stimulation of photoreceptor cells (in particular cone cells in the human eye and other vertebrate eyes) by electromagnetic radiation (in the visible spectrum in the case of humans).</p>
+			<p>Color is really important for making great <abbr title="Cascading Style Sheets">CSS</abbr> styles. <a href="#">Color.com is the most amazing place to get your colors.</a></p>
+		</section>
+
+		<section id="popular" class='cards'>
+
+			<div class="card" style="margin: 0.5em; width: 18rem;">
+				<img class='card-img-top' src="images/600px-64_365_Color_Macro.jpg" width='300' height='200'>
+				<div class='card-body'>
+					<p>Colored Pencils.</p>
+					<p>All the colors in the box. Every color you might need.</p>
+				</div>
+			</div>
+
+			<div class="card" style="margin: 0.5em; width: 18rem;">
+				<img class='card-img-top' src="images/600px-Nasir-al_molk.jpg" width='300' height='200'>
+				<div class='card-body'>
+					<p>Color effect—sunlight shining through stained glass onto carpet (Nasir ol Molk Mosque located in Shiraz, Iran) </p>
+				</div>
+			</div>
+
+			<div class="card" style="margin: 0.5em; width: 18rem;"  s>
+				<img class='card-img-top' src="images/600px-Chubb_Illusion.png" width='300' height='200'>
+				<div class='card-body'>
+					<p>Colors can appear different depending on their surrounding colors and shapes. The two small squares have exactly the same color, but the right one looks slightly darker, the Chubb illusion.</p>
+				</div>
+			</div>
+
+		</section>
+
+		<section id="swatches">
+			<header>
+				<h1>Colors</h1>
+				<p>At color.com we offer a range of high quality colors.</p>
+			</header>
+			<div class="swatches">
+			</div>
+		</section>
+
+		<section id="cart" class="cart">
+			<header>
+				<h1>Cart</h1>
+			</header>
+			<ul id="items">
+			</ul>
+			<div id="total">
+			</div>
+		</section>
+
+		<section id="contact">
+			<header>
+				<h1>Contact</h1>
+			</header>
+			<div>
+				<form>
+					<label>
+						Name
+						<input type="text">
+					</label>
+					<label>
+						Subject
+						<input type="text">
+					</label>
+					<label>
+						Message
+						<textarea></textarea>
+					</label>
+					<label>
+						Sign up for the newsletter
+						<input type="checkbox">
+					</label>
+					<label>
+						<input type="radio" name="user">
+						Artist
+					</label>
+					<label>
+						<input type="radio" name="user">
+						Designer
+					</label>
+					<label>
+						<input type="radio" name="user">
+						Enthusiast
+					</label>
+					<button>Submit</button>
+				</form>
+			</div>
+		</section>
+
+		<section id="component" class="component">
+		</section>
+
+	</main>
+
+	<script src="ticker-tape.js"></script>
+	<script src="scripts.js"></script>
+</body>
+</html>
